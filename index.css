@@ -7,7 +7,7 @@
 }
 
 h1 {
-  font-size: 1em;
+  font-size: 2em;
 }
 
 html, body {
@@ -19,7 +19,7 @@ html, body {
 }
 
 body {
-  grid-template-rows: 6em 3em auto;
+  grid-template-rows: 4em 3em auto;
   grid-template-columns: auto;
   background: var(--base3);
   color: var(--base02);
@@ -116,12 +116,12 @@ body {
   grid-column-end: 5;
   grid-row-start: 1;
   grid-row-end: 2;
-  font-size: 3em;
+  font-size: 1em;
   font-family: 'Goudy Old Style';
   display: grid;
   grid-template-columns: auto;
-  padding-left: 4em;
-  padding-right: 4em;
+  padding-left: 4rem;
+  padding-right: 4rem;
   justify-content: center;
   align-items: center;
   user-select: none;
