@@ -1,0 +1,10 @@
+body {
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 2.5rem;
+}
+
+body > * {
+  text-align: center;
+  padding-top: 1.25rem;
+  height: 2.5rem;
+}

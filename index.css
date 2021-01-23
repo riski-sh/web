@@ -1,15 +1,3 @@
-@font-face {
-  font-family: 'Goudy Old Style';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Goudy Old Style'), url('fonts/GOUDOS.woff') format('woff');
-  font-display: swap;
-}
-
-h1 {
-  font-size: 2em;
-}
-
 html, body {
   margin: 0px;
   padding: 0px;
@@ -19,52 +7,10 @@ html, body {
 }
 
 body {
-  grid-template-rows: 4em 3em auto;
+  grid-template-rows: 4em 2em auto;
   grid-template-columns: auto;
   background: var(--base3);
   color: var(--base02);
-}
-
-#navigation {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  align-items: flex-end;
-  display: flex;
-  align-self: stretch;
-  grid-row-start: 2;
-  grid-row-end: 3;
-  justify-content: center;
-  border-bottom: 1px solid var(--base01);
-}
-
-#navigation > span {
-  display: grid;
-  align-self: stretch;
-  padding-left: 1em;
-  padding-right: 1em;
-  justify-content: center;
-  align-content: center;
-  color: var(--base01);
-  user-select: none;
-}
-
-#navigation > span:hover {
-  color: var(--base02);
-  font-weight: bold;
-}
-
-#github {
-  display: flex;
-  align-items: center
-}
-
-#github > svg {
-  fill: var(--base02);
-}
-
-#left-header {
-  align-self: stretch;
-  display: grid;
 }
 
 #search-container {
@@ -244,7 +190,7 @@ body {
   border-bottom: 1px solid var(--base01);
 }
 
-#dash {
+.dash {
   grid-row-start: 3;
   grid-row-end: 4;
   grid-column-start: 1;
@@ -280,4 +226,24 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.header-fill {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  align-items: flex-end;
+  display: flex;
+  align-self: stretch;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  justify-content: center;
+  border-bottom: 1px solid var(--base01);
+}
+
+#select-charts {
+  font-style: normal;
+}
+
+#selection-historical {
+  display: none;
 }

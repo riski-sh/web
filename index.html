@@ -17,8 +17,7 @@
       <div id="search-container">
           <input id="security-text" value="EUR/USD">
       </div>
-      <div id="navigation">
-      </div>
+      <div class="header-fill"></div>
       <div id="night-light">
         <label class="switch">
           <input type="checkbox" onclick="switchtheme()">
@@ -27,19 +26,21 @@
       </div>
     </div>
 
-    <div id="dash">
+    <div id="section-market" class="dash">
       <div id="chart">
         <canvas id="chart-drawable" />
       </div>
     </div>
-
   </body>
 
   <link rel="stylesheet" href="solarized.css">
   <link rel="stylesheet" href="switch.css">
+  <link rel="stylesheet" href="global.css">
   <link rel="stylesheet" href="index.css">
 
   <script src="themes.js"></script>
   <script src="comms.js"></script>
   <script src="chart.js"></script>
+  <script src="navigation.js"></script>
+
 </html>

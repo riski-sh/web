@@ -1,0 +1,25 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+  display: grid;
+}
+
+body {
+  background: var(--base3);
+  color: var(--base02);
+}
+
+h1 {
+  font-family: 'Goudy Old Style';
+  font-size: 1.5em;
+}
+
+@font-face {
+  font-family: 'Goudy Old Style';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Goudy Old Style'), url('fonts/GOUDOS.woff') format('woff');
+  font-display: swap;
+}
